@@ -187,7 +187,6 @@ function calculate(expression) {
         }
 
         if (stack.length === 1) {
-            // convert to a number in case there was one thing on the stack
             return Number(stack.pop());
         }
 

@@ -8,8 +8,9 @@ Using Polish notation to calculate mathematical expressions
 ### Usage
 Enter mathematical expressions.
 e.g 
+```javascript
 -3 + 5 * 2
 3 + (-2) * 3 + 2 / ( 1 + 1)
-
+```
 ### References
 - https://en.wikipedia.org/wiki/Reverse_Polish_notation

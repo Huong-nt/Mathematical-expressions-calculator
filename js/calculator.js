@@ -14,7 +14,7 @@ function calculate(expression) {
         return false;
     }
 
-    // compare precedence of operators i.e. which of them should be calculated first (returns number)
+    // compare precedence of operators (which of them should be calculated first)
     function comparePrecedence(token1, token2) {
         if (!isOperator(token1))
             throw new Error("Invalid token: " + token);
@@ -139,13 +139,13 @@ function calculate(expression) {
             out.push(stack.pop());
         }
 
-        // we have to filter empty tokens that might appear
+        // filter empty tokens
         out = out.filter(Boolean);
 
         return out;
     }
 
-    // calculate result from Polish notation
+    // calculate Polish notation
     function calculateRpn(tokens) {
         tokens = tokens.reverse();
         var stack = [];

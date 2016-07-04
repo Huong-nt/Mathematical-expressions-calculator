@@ -9,7 +9,6 @@ Using Polish notation to calculate mathematical expressions
 Enter mathematical expressions.
 e.g 
 ```javascript
--3 + 5 * 2
 3 + (-2) * 3 + 2 / ( 1 + 1)
 ```
 ### References
